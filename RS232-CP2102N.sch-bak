@@ -445,12 +445,72 @@ Wire Wire Line
 	8250 3900 8250 3850
 Wire Wire Line
 	8250 3850 8350 3850
-Text Label 8250 3650 2    50   ~ 0
+Text Label 8250 3750 2    50   ~ 0
 RX
 Wire Wire Line
 	8350 3650 8250 3650
 Wire Wire Line
 	8350 3750 8250 3750
-Text Label 8250 3750 2    50   ~ 0
+Text Label 8250 3650 2    50   ~ 0
 TX
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5D6E6C3E
+P 3500 1300
+F 0 "J?" H 3580 1342 50  0000 L CNN
+F 1 "Conn_01x05" H 3580 1251 50  0000 L CNN
+F 2 "" H 3500 1300 50  0001 C CNN
+F 3 "~" H 3500 1300 50  0001 C CNN
+	1    3500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5D6E752C
+P 2800 1700
+F 0 "J?" H 2718 2217 50  0000 C CNN
+F 1 "Conn_01x08" H 2718 2126 50  0000 C CNN
+F 2 "" H 2800 1700 50  0001 C CNN
+F 3 "~" H 2800 1700 50  0001 C CNN
+	1    2800 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5D6E8F4F
+P 3100 2700
+F 0 "J?" V 2972 2212 50  0000 R CNN
+F 1 "Conn_01x08" V 3063 2212 50  0000 R CNN
+F 2 "" H 3100 2700 50  0001 C CNN
+F 3 "~" H 3100 2700 50  0001 C CNN
+	1    3100 2700
+	0    -1   1    0   
+$EndComp
+Text Notes 3000 1600 0    50   ~ 0
+TXG
+Text Notes 3000 1700 0    50   ~ 0
+RXG
+Text Notes 3300 1400 2    50   ~ 0
+TXS
+Text Notes 3300 1300 2    50   ~ 0
+RXS
+Text Notes 3500 2500 1    50   ~ 0
+TXS
+Text Notes 3400 2500 1    50   ~ 0
+TXG
+Text Notes 3100 3200 3    50   ~ 0
+RXG
+Text Notes 3200 3200 3    50   ~ 0
+RXS
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5D6ED681
+P 3200 3000
+F 0 "J?" V 3164 3380 50  0000 L CNN
+F 1 "Conn_01x08" V 3073 3380 50  0000 L CNN
+F 2 "" H 3200 3000 50  0001 C CNN
+F 3 "~" H 3200 3000 50  0001 C CNN
+	1    3200 3000
+	0    1    -1   0   
+$EndComp
 $EndSCHEMATC
